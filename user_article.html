@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>用户-我的文章</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">  
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/layer.js"></script>
+	</head>
+	
+
+<body>
+    <header>  
+        <div  id="fhead">
+            <div  class="container">
+                
+               <div class="logo"><img   src="img/shouye/logo.png"></div>
+                 <ul>
+                	<li><a> 公告</a></li>               
+                	<li><a> 分享</a></li>
+                	<li><a> G友</a></li>
+                </ul>
+                
+                <div  class="info">
+                	<p>
+                	 <input type="text"  placeholder="请输入要查找的信息" id="invalue"> 
+                	 <img src="img/shouye/search.png" id="search">   
+                	</p>
+                	 <img src="img/shouye/touxiang.png" >   
+                	  <span>大树来了  大树来了</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+   
+    	<div  class="content-box">
+    		
+    		<aside>
+    			
+    			<div  class="user">
+    	 		
+    	 		<img src="img/main/author.png">
+    	 		
+    	 		<h3>大树来了/大树来</h3>
+    	 		<p>
+    	 			
+    	 			职位信息
+    	 		</p>
+    	 		
+    	 		<p class="edit"><a><img src="img/user/edit.png"></a></p>
+    	 	</div>
+    	 	<div class="clear"></div>
+    	 	<div class="jiange"></div>
+    	 	<ul>
+    	 		<li class="menu">    	 			
+    	 			<a><p class="leftp"></p><p  class="rightp">个人中心</p></a>
+    	 		</li>
+    	 		<li class="menu">    	 			
+    	 			<a><p class="leftp current" ></p><p class="rightp">我的文章</p></a>
+    	 		</li>
+    	 		<li class="menu">    	 			
+    	 			<a><p class="leftp"></p><p class="rightp">我的消息</p></a>
+    	 		</li>
+    	 	</ul>
+    			
+    		</aside>
+
+    	  	<div  class="article user">
+    	  		<div class="myart"><p>我的文章</p></div>
+    	  		  <ul>
+    	  		<li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		  <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		 <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		 <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  <li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		  <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		 <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		 <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  	<li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		  <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		 <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		 <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  <li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		    <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		    <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		    <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  	<li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		  <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		 <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		 <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  	<li>
+    	  		<a><img  src="img/shouye/thumb.png"></a>
+
+    	  		<p> 这是测试这是测试这是测试这是测试这是测试这是测试这是测试</p>
+    	  		<div class="info">
+    	  			<a class="art edit">编辑</a>
+    	  			<a class="art del"  onclick="del(this,7)">删除</a>
+    	  		<!--<img class= "biao4" src="img/shouye/author.png"><span>用户名称</span>  -->
+    	  		
+    	  		  <a  class= "tu biao3"><img  src="img/shouye/comment.png"><span> 3456</span></a>
+    	  		 <a class= "tu biao2"><img  src="img/shouye/like.png"><span> 34</span></a>
+    	  		
+    	  		 <a class= "tu biao1"><img   src="img/shouye/read.png"><span> 89</span></a>
+    	  		</div>
+    	  	</li>
+    	  		  </ul>
+    	  	</div>
+
+    	
+        </div>   
+        
+        <div class="clear"></div>
+  <footer>
+    	
+    	<p>Copyright@2018开天互动娱乐科技有限公司 内刊管理平台&nbsp;|&nbsp;222222</p>
+    </footer>
+
+
+	<script>
+		
+		function del(obj,id){
+			
+    layer.confirm('确定删除此文章？', {
+       btn: ['确定','取消'] //按钮
+      }, function(){
+      	
+     $(obj).parent().parent().remove()
+      	
+      	//后台代码
+     layer.msg('已删除', {icon: 1,time:1000});
+      });
+			
+		}
+
+</script>
+
+   
+    
+</body>
+</html>

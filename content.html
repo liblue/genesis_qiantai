@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+ 
+    <script  src="js/jquery.js"></script>
+    <script  src="js/main.js"></script>
+</head>
+<body>
+     <header>  
+        <div  id="fhead"  >
+            <div  class="container">
+                
+               <div class="logo"><img src="img/shouye/logo.png"></div>
+                 <ul>
+                	<li  class="current"><a>公告</a></li>               
+                	<li><a> 分享</a></li>
+                    <li><a> G友</a></li>
+                </ul>
+                
+                <div  class="info">
+                	<p>
+                	 <input type="text"  placeholder="请输入要查找的信息" id="invalue"> 
+                	 <img src="img/shouye/search.png" id="search">   
+                	</p>
+                	 <img src="img/shouye/touxiang.png" >   
+                	  <span>大树对/大树大树</span>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+
+    	<div  class="content-box">
+      <article>
+      	<div  class="head"> 
+      		
+      		<h2>title</h2>
+      		<p  class="info"> 原作者：大树对/大树大树 </p>
+      		<p  class="info"> 发布时间  2018-04-01</p>
+      		<p class= "tu biao3"><a  ><img  src="img/shouye/comment.png"><span> 3456</span></a></p>
+    	    <p class= "tu biao2"> <a ><img  src="img/shouye/like.png"><span> 34</span></a></p>    	  		
+            <p class= "tu biao1"> <a ><img   src="img/shouye/read.png"><span> 89</span></a></p>       		      	      		
+      	</div>
+      	
+      		<div class="clear"></div>
+	   <div  class="content">
+	   	<p>
+	   		
+	   		sgsretewrt
+	   	</p>
+	   	
+	   	
+	   	
+	   </div>
+	   <div  class="fenye">
+	   	
+	   	<div class="both">
+	   		
+	   		<div  class="dianzan"  id="dianzan">
+	   		
+	   		 <div class="zan"  id="zan" >
+	   			
+	   			
+	   		</div>
+	   		
+	   		</div>
+	   		<ul>
+	   				<a><li class="currentpage"><span>1</span></li></a>
+	   				<a><li><span>2</span></li></a>
+	   			    <a><li class="nextpage"></li></a>
+	   		</ul>
+	   	</div>
+	 
+	   	
+	   </div>
+	   <div  class="space"></div>
+	   <div  class="reply">
+	   	<div  class="replycon">
+	   <textarea  class="replytext">  </textarea>
+	   	<button type="submit" class="reply_submit"></button>
+	   	</div>
+
+	   </div>
+	   <div  class="comment">
+	   	
+	   	<ul>
+	   		
+	   		<li class="first">	 
+	   			<div class="com_head">
+	   				<a  class="user_thumb"><img src="img/main/user_thumb.png" /></a>
+	   			    <p  class="com_user">大树来了/大树来了<img src="img/main/com_del.png"></p>
+	   				<p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   				<p  class="com_zan"   onclick="com_zan(this)"><img src="img/main/com_zan.png" />&nbsp;5</p>
+	   			    <p  class="com_thumb"  onclick="com_thumb(this)"> <img src="img/main/com_thumb.png" /></p>
+	   			</div>
+	   			<ul huifu_ul>
+	   				<li class="huifu">	   						   					
+	   			     <p  class="com_user">大树来了/大树来了</p>
+	   				 <p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   					
+	   				</li>
+	   				<li class="huifu"></li>
+	   			</ul>
+	   		    <div class="com_show">
+	   			<textarea class="com_reply"></textarea>
+	   			 	<button type="submit" class="com_submit"></button>
+	   		   </div>
+	   			
+	   		</li>
+	   		
+	   		
+	   		
+	   		
+	   		<li>	 
+	   			<div class="com_head">
+	   				<a  class="user_thumb"><img src="img/main/user_thumb.png" /></a>
+	   			    <p  class="com_user">大树来了/大树来了</p>
+	   				<p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   				<p  class="com_zan"   ><img src="img/main/com_zan.png" /></p>
+	   			    <p  class="com_thumb"  onclick="com_thumb(this)"> <img src="img/main/com_thumb.png" /></p>
+	   			</div>
+	   			
+	   			<ul calss="huifu_ul">
+	   				<li class="huifu">	   						   					
+	   			     <p  class="com_user">大树来了/大树来了</p>
+	   				 <p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   					
+	   				</li>
+	   				<li class="huifu"></li>
+	   			</ul>
+	   		    <div class="com_show">
+	   			<textarea class="com_reply"></textarea>
+	   				
+	   			
+	   			 	<button type="submit" class="com_submit"></button>
+	   		   </div>
+	   			
+	   		</li>
+	   		
+	   	<li>	 
+	   			<div class="com_head">
+	   				<a  class="user_thumb"><img src="img/main/user_thumb.png" /></a>
+	   			    <p  class="com_user">大树来了/大树来了</p>
+	   				<p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   				<p  class="com_zan"   ><img src="img/main/com_zan.png" /></p>
+	   			    <p  class="com_thumb"  onclick="com_thumb(this)"> <img src="img/main/com_thumb.png" /></p>
+	   			</div>
+	   			<ul huifu_ul>
+	   				<li class="huifu">	   						   					
+	   			     <p  class="com_user">大树来了/大树来了</p>
+	   				 <p  class="com_con"  >大树来了/大树来了评论内容</p>
+	   					
+	   				</li>
+	   				<li class="huifu"></li>
+	   			</ul>
+	   			
+	   		    <div class="com_show">
+	   			<textarea class="com_reply"></textarea>
+	   				
+	   			
+	   			 	<button type="submit" class="com_submit"></button>
+	   		   </div>
+	   			
+	   		</li>
+	   	
+	   	</ul>
+	   	
+	   </div>
+	
+	  </article>
+    		
+    	 <aside>
+    	 	<div  class="user">
+    	 		
+    	 		<img src="img/main/author.png">
+    	 		
+    	 		<h3>大树来了/大树来</h3>
+    	 		<p>
+    	 			
+    	 			职位信息
+    	 		</p>
+    	 	</div>
+    	 	<div  class="hot_art">
+    	 		
+    	 		热门文章
+    	 	</div>
+    	 	<ul>
+    	 		<li class="first">    	 			
+    	 			<a>鼠标浮于上方效果</a>
+    	 		</li>
+    	 		<li>    	 			
+    	 			<a>字数超级多展示</a>
+    	 		</li>
+    	 		<li>    	 			
+    	 			<a>鼠标浮于上方效果</a>
+    	 		</li>
+    	 	</ul>
+    	 	
+    	 </aside>
+        </div>
+        
+         <div class="clear"></div>
+  <footer>
+    	
+    	<p>Copyright@2018开天互动娱乐科技有限公司 内刊管理平台&nbsp;|&nbsp;222222</p>
+    </footer>
+    	
+    	
+    
+    
+    
+</body>
+</html>
